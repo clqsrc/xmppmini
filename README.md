@@ -37,7 +37,7 @@ server_dyn=1
 
 当我们要将消息发送给 clq_a@clqsoft.com 时，只要访问 http://newbt.net/xmppmini.php?action=get_host  传递一个值为 clq_a@clqsoft.com 的 user_name 参数就可以查询到它所在的服务器了。参数即可以通过 post 方式，也可以通过 get 方式传递。例如用浏览器直接访问 http://newbt.net/xmppmini.php?action=get_host&user_name=clq_a@clqsoft.com   
 
-这一地址的内容格式也和 xmppmini.txt 一样，不过这其中的 host 应该是固定的，不能再支持动态再向下级查询了（当然特殊需要的用户可以自行实现再向下查询，但对于 xmppmini 项目来说简单是第一要务，就不支持了）。  
+这一地址返回的内容格式也和 xmppmini.txt 一样，不过这其中的 host 应该是固定的，不能再支持动态再向下级查询了（当然特殊需要的用户可以自行实现再向下查询，但对于 xmppmini 项目来说简单是第一要务，就不支持了）。  
 
 这一扩展一般在服务端实现，但对于不想修改服务器软件的用户来说，直接在客户端实现也是可以的，一样简单。  
 
