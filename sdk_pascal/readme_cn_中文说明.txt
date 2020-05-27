@@ -1,0 +1,1 @@
+这个目录下是 delphi/lazarus 版本的 xmppnini 协议 SDK 和示例 Demo

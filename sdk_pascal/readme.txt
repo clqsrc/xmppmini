@@ -1,0 +1,1 @@
+This is delphi/lazarus xmppnini SDK/Demo
